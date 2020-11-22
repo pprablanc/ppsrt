@@ -1,4 +1,0 @@
-pyaudio
-scipy
-getch
-matplotlib
