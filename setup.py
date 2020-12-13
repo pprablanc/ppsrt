@@ -8,9 +8,11 @@ setup(
     packages=find_packages(),
     install_requires=[
         'pyaudio',
-        'readchar'
+        'readchar',
+        'numpy',
+        'scipy'
         ],
     extras_require={
-        'tests': ['scipy'],
+        #'tests': ['scipy'],
     }
 )
